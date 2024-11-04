@@ -1,0 +1,503 @@
+/* .nav li{
+        margin: 50px;
+    } */
+.nav-cont {
+    width: 100%;
+    border: 1px solid black;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+
+}
+
+.nav-item a {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    /* border-bottom: 5px solid white; */
+}
+
+.nav-item :hover {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.nav-cont-a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.container-fluid-1 {
+    width: 100%;
+    padding-top: 125px;
+    border: 1px solid #191919;
+
+
+}
+
+.cont-what {
+    width: 100%;
+    border: 1px solid #191919;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+@media only screen and (max-width: 480px) {
+    .res-class {
+        width: 42%;
+    }
+}
+
+.text-offer {
+    color: goldenrod;
+    font-size: 50px;
+    font-weight: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+    .res-class-b {
+        width: 20%;
+    }
+}
+
+.text-treat {
+    text-align: start;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .container {
+        background-color: #191919;
+    } */
+
+.p-container {
+    background-color: #191919;
+}
+
+.col-a {
+    padding-right: 80px;
+
+
+}
+
+.col-b {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.card-a {
+    margin-top: 70px;
+
+}
+
+.img-class img {
+    width: 100%;
+    height: 15em;
+}
+
+.card-title {
+    color: goldenrod;
+    text-align: start;
+}
+
+.card-text {
+    text-align: start;
+    color: white;
+
+}
+
+.card-body {
+    background-color: #191919;
+}
+
+.card {
+    border: 1px solid #191919;
+}
+
+.button-class {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.btn-warning {
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: goldenrod;
+    font-size: 20px;
+}
+
+.event-img {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 480px) {
+    .custom-class-a{
+        width: 42%;
+    }
+}
+
+
+.event-text {
+    color: goldenrod;
+    font-size: 50px;
+    text-align: start;
+}
+
+.event-text-2 {
+    color: white;
+    line-height: 50px;
+    text-align: start;
+}
+
+.event {
+    padding-top: 120px;
+    margin-left: 50px;
+}
+
+.team-img {
+    margin-top: 150px;
+}
+
+.faq-img {
+    margin-top: 100px;
+    border: 1px solid #191919;
+    margin-left: 10px;
+}
+
+.accordion-item {
+    background-color: #191919;
+    color: white;
+    font-weight: 100;
+    border: none;
+    padding-top: 10px;
+}
+
+.accordion-button {
+    background-color: rgb(134, 116, 68);
+    outline: none;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(134, 116, 68);
+    color: black;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: none
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border: 1px solid rgb(134, 116, 68);
+}
+
+.footer-1 {
+    width: 100%;
+    /* border: 1px solid white; */
+    background-color: black;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+.contact-foot {
+    color: goldenrod;
+    padding-top: 20px;
+}
+
+.btn {
+    color: white;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.footer-img1 {
+    margin-top: 50px;
+}
+
+.footer-img2 {
+    margin-top: 100px;
+}
+
+.footer-text {
+    text-align: end;
+    margin-top: 100px;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.footer-2 {
+    background-color: rgb(43, 43, 51);
+    width: 100%;
+    margin-top: 30px;
+}
+
+.about-img {
+    margin-top: 220px;
+}
+
+.about-text {
+    margin-top: 150px;
+    text-align: start;
+    font-weight: 600;
+    color: goldenrod;
+    font-size: 40px;
+}
+
+.about-text-2 {
+    text-align: start;
+    color: white;
+}
+
+.container-1 {
+    background-color: #191919;
+}
+
+.footer-3 {
+    background-color: rgb(43, 43, 51);
+    width: 100%;
+}
+
+.pricelist {
+    margin-top: 200px;
+    padding-top: 50px;
+    width: 60%;
+    background-color: #92400e;
+    margin-left: 200px;
+}
+
+.Price-text {
+    color: goldenrod;
+    padding-top: 50px;
+    border-radius: 5px;
+
+}
+
+.Price-text-2 {
+    text-align: center;
+    padding-bottom: 100px;
+    line-height: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.container-2 {
+    background-color: #191919;
+}
+
+.pricelist-2 {
+    margin-top: 200px;
+    padding-top: 30px;
+    width: 60%;
+    background-color: #ec4899;
+    margin-left: 200px;
+}
+
+.Price-text-2a {
+    color: goldenrod;
+    padding-top: 50px;
+    border-radius: 5px;
+
+}
+
+.Price-text-3 {
+    text-align: center;
+    padding-bottom: 100px;
+    line-height: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.deal-1 {
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    text-align: start;
+    padding-left: 20px;
+    background-color: #191919;
+    margin-top: 20px;
+}
+
+.text-d1 {
+    color: white;
+    font-size: 30px;
+}
+
+.text-d2 {
+    color: aliceblue;
+}
+
+.text-d3 {
+    color: white;
+}
+
+.footer-4 {
+    padding-top: 10px;
+    background-color: rgb(43, 43, 51);
+    width: 100%;
+    /* margin-top: 120px; */
+}
+
+.port-div {
+    width: 100%;
+    position: relative;
+    top: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.port-div-2 {
+    width: 100%;
+    position: relative;
+    top: 123px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-blog {
+    width: 100%;
+    position: relative;
+    top: 125px;
+    background-color: #191919;
+}
+
+.img-class-b img {
+    width: 100%;
+    height: 15em;
+}
+
+.btn-2 {
+    text-align: start;
+
+}
+
+.container-blog-2 {
+    width: 100%;
+    position: relative;
+    top: 125px;
+    background-color: #191919;
+    padding-top: 100px;
+}
+
+.footer-5 {
+    padding-top: 10px;
+    background-color: rgb(43, 43, 51);
+    width: 100%;
+    margin-top: 120px;
+}
+
+.container-readblog {
+    width: 100%;
+    position: relative;
+    top: 120px;
+    /* display: flex; */
+
+    align-items: center;
+    justify-content: space-around;
+    background-color: #191919;
+}
+
+.img-class-c {
+    width: 90%;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.img-class-c img {
+    width: 100%;
+    height: 30em;
+}
+
+.rblog-text {
+    width: 100%;
+    padding-left: 100px;
+}
+
+.rblog-text-a {
+    color: goldenrod;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.rblog-text-b {
+    color: white;
+    font-size: 20px;
+
+}
+
+.container-4 {
+    width: 100%;
+    background-color: #191919;
+}
+
+.contact {
+    padding-top: 50px;
+    padding-left: 60px;
+    position: relative;
+    top: 120px;
+}
+
+.contact-text {
+    color: goldenrod;
+    font-size: 50px;
+}
+
+.iframe {
+    position: relative;
+    top: 120px;
+    margin-left: 200px;
+}
+
+.footer-a {
+    background-color: #191919;
+    position: relative;
+    top: 120px;
+    padding-left: 100px;
+}
+
+.footer-a-text {
+    font-weight: 900;
+    color: white;
+    /* color: white; */
+
+}
+
+.footer-b-text {
+    color: goldenrod;
+}
